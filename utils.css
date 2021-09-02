@@ -1,0 +1,226 @@
+/* Utilities */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: auto; /* remove padding  above navbar */
+    padding: 0 40px;
+}
+
+.card {
+    background-color: #fff;
+    color: #3a3a3a;
+}
+
+ /* Layout */
+.grid-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem; /* space in between */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem; /* space in between */
+    align-items: center;
+    align-self: center;
+    height: 100%;
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.bg-color {
+    background-color: var(--primary-color);
+}
+
+.bg-secondary {
+    background-color: #fff;
+}
+
+.bg-primary {
+    background-color: #f6fcfc;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+.btn-primary {
+    margin: 5px 0;
+    width: 100%;
+}
+
+.btn-light {
+    border: 1px solid #fff;
+    padding: 12px;
+}
+
+/* Hover effect */
+.btn-light:hover {
+border: 1px solid var(--secondary-color);
+}
+
+/* Text Colors */
+.text-primary {
+    color: #fff;
+}
+
+.text-secondary {
+    color:#95a3b1
+}
+
+.text-dark {
+    color: #0a253b;
+}
+
+/* Text Sizes */
+.lead {
+    font-size: 24px;
+}
+
+.sm {
+    font-size: 1rem;
+}
+
+.md {
+    font-size: 2rem;
+}
+
+.lg {
+    font-size: 3rem;
+}
+
+.xl {
+    font: 4rem;
+}
+
+/* Text-center */
+.text-center {
+    text-align: center;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.text-end {
+    text-align: end;
+}
+
+/* margin and padding elements custom 'framework' */
+/* margin */
+.my-1 {
+    margin: 1rem 0;
+}
+.my-2 {
+    margin: 1.5rem 0;
+}
+.my-3 {
+    margin: 2rem 0;
+}
+.my-4 {
+    margin: 3rem 0;
+}
+.my-5 {
+    margin: 4rem 0;
+}
+
+.m-1 {
+    margin: 1rem;
+}
+.m-2 {
+    margin: 1.5rem;
+}
+.m-3 {
+    margin: 2rem;
+}
+.m-4 {
+    margin: 3rem;
+}
+.m-5 {
+    margin: 4rem;
+}
+
+/* Padding */
+.py-1 {
+    padding: 1rem 0;
+}
+.py-2 {
+    padding: 1.5rem 0;
+}
+.py-3 {
+    padding: 2rem 0;
+}
+.py-4 {
+    padding: 3rem 0;
+}
+.py-5 {
+    padding: 4rem 0;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+.p-2 {
+    padding: 1.5rem;
+}
+.p-3 {
+    padding: 2rem;
+}
+.p-4 {
+    padding: 3rem;
+}
+.p-5 {
+    padding: 4rem;
+}
+
+/* End elements framework */
+
+
+/* Animations */
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slideFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slideFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slideFromBottom{
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
