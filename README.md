@@ -1,6 +1,6 @@
 # Nonprofit
-A makeshift nonprofit website - personal project
-I made this because the idea sparked in my head after seeing people in need out in the streets. I thought it would be a nice project to make which I created with HTML5 + CSS3
+A makeshift nonprofit website - personal project.
+I made this because the idea sparked in my head after seeing people in need out in the streets. I made this project with HTML5 + CSS3.
 
 <img width="1350" alt="Screen Shot 2021-09-01 at 7 55 46 PM" src="https://user-images.githubusercontent.com/20747118/131774395-c454af26-63da-4c65-9287-2cc2823643f4.png">
 
