@@ -47,6 +47,15 @@
     background-color: #f6fcfc;
 }
 
+.bg-hero {
+    background: url('/assets/imgs/crisscross.jpeg') no-repeat center center / cover;
+}
+
+.bg-hero-2 {
+    background: url('/assets/imgs/mission-1-lg.jpeg') no-repeat center center / cover;
+
+}
+
 /* Button Styles */
 .btn {
     display: inline-block;
@@ -150,6 +159,10 @@ border: 1px solid var(--secondary-color);
 }
 .m-5 {
     margin: 4rem;
+}
+
+.mt-200 {
+    margin-top: 200px;
 }
 
 /* Padding */
