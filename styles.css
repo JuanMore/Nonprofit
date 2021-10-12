@@ -94,15 +94,21 @@ img {
         color: white;
     }
 
+    /* Active class */
+    .active a{
+        color: var(--secondary-color);
+    }
+
 /* Showcase */
 .main-showcase {
-    height: 500px;
+    height: 610px;
     display: block;
     z-index: 100;
 }
 
 .main-showcase p {
     margin: 20px 0;
+    margin-bottom: 40px;
 }
 
 .main-showcase .grid-1 {
@@ -166,6 +172,24 @@ img {
     height: 800px;
 }
 
+.col-cards img {
+    width: 80%;
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+.col-card-title {
+    font-size: 24px;
+    font-weight: 400;
+    transform: translateY(-300%);
+}
+
+.col-card-subtitle {
+    font-size: 14px;
+    transform: translateY(-200%);
+
+}
+
 .mission .btn {
     margin-top: 5px;
     text-align: center;
@@ -178,6 +202,16 @@ img {
 
 .main-statements {
     display:block;
+    margin-left: 10px;
+    align-items: center;
+    
+}
+
+.main-statements .btn-secondary {
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 23px;
+
 }
 
 .statements img {
@@ -191,6 +225,8 @@ img {
     margin-bottom: 10px;
 }
 
+/* End Mission */
+
 
 
 /* About */
@@ -200,6 +236,36 @@ img {
     margin: 0 auto;
     background-color: #fff;
 }
+
+.blog-card .card-title {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.blog-card .card-subtitle {
+    font-size: 14px;
+}
+
+.blog-card .card-title, .card-subtitle {
+    padding: 5px;
+}
+
+.about-cta {
+    height: 300px;
+    width: 100%;
+    background-color: #f6fcfc;
+}
+
+ .cta-btns {
+    display: inline-flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.cta-btns a {
+    width: 200px;
+}
+
 
 /* Footer */
 .footer {
@@ -216,6 +282,7 @@ img {
 }
 
 .footer a:hover {
+    color: var(--secondary-color);
     border-bottom: 1px solid var(--secondary-color);
 }
 
@@ -299,7 +366,7 @@ img {
 @media(max-width: 928px){
     .grid-1,
     .grid-2,
-    .main-showcase .grid-1 {
+    .main-showcase .grid-1{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         overflow-y: hidden;
@@ -348,6 +415,7 @@ img {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
+
     .showcase {
         height: 500px;
     }
@@ -383,7 +451,7 @@ img {
         width: 100% !important;
     }
 
-    .mission img {
+    img {
         height: 100%;
         width: 100%;
     }
