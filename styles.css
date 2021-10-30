@@ -361,10 +361,6 @@ img {
     .footer .social a {
         margin: 5px;
     }
-
-    .footer > p a {
-        color: #eb2011;
-    }
 }
 
 @media(max-width: 928px){
