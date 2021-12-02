@@ -306,8 +306,8 @@ img {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
-    .grid-3 {
-        grid-template-columns: 1fr;
+    .main-statements .container .grid-3 {
+        grid-template-columns: 2fr;
     }
 
     .container .grid-4 {
@@ -423,7 +423,7 @@ img {
 @media(max-width: 500px){
     .grid-1,
     .grid-2,
-    .main-showcase .grid-1, .grid-3, .container .grid-4 {
+    .main-showcase .grid-1, .main-statements .container .grid-3, .container .grid-4 {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
