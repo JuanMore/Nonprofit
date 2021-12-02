@@ -185,12 +185,12 @@ img {
 
 .col-card-title {
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 500;
     transform: translateY(-300%);
 }
 
 .col-card-subtitle {
-    color: var(--light-color);
+    color: #3a3a3a;
     line-height: 1.4;
     font-size: 18px;
     transform: translateY(-50%);
