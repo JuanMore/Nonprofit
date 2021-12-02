@@ -348,7 +348,7 @@ img {
         height: 100%;
     }
 
-    #volunteer-form btn {
+    .volunteer-form btn {
         width: 100%;  
     }
     .footer h1, p {
@@ -402,7 +402,6 @@ img {
     .navbar ul.nav-list.show {
         transform: translateX(-20px);
     }
-
 
     .nav-toggle {
         display: block;
