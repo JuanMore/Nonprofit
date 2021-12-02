@@ -477,6 +477,12 @@ img {
         padding: 1rem 1rem;
     }
 
+    .col-card-subtitle {
+        font-size: 18px;
+        transform: translateY(-40%);
+        padding: 0 10px;
+    }
+    
     img {
         height: 100%;
         width: 100%;
