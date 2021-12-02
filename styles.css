@@ -461,6 +461,22 @@ img {
         width: 100% !important;
     }
 
+    .col-cards img {
+        transform: translateY(-30%);
+    }
+
+    .col-cards {
+        margin-top: 30px;
+    }
+
+    .mission-statement .container {
+        margin: 40px 80px;
+    }
+
+    .mission-statement .py-1 {
+        padding: 1rem 1rem;
+    }
+
     img {
         height: 100%;
         width: 100%;
