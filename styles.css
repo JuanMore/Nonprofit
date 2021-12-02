@@ -238,11 +238,13 @@ img {
 }
 
 .blog-card .card-title {
+    padding: 0 10px;
     font-weight: 600;
     font-size: 22px;
 }
 
 .blog-card .card-subtitle {
+    line-height: 1.5;
     font-size: 14px;
 }
 
