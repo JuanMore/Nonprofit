@@ -172,6 +172,10 @@ img {
     height: 800px;
 }
 
+.mission .mission-statement {
+    margin: auto;
+}
+
 
 .col-cards img {
     width: 80%;
