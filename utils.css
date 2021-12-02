@@ -114,12 +114,13 @@
     background-color: #fff;
     color: steelblue;
     padding: 12px;
-    border: none;
+    border: 1px solid var(--secondary-color);
+
 }
 
 /* Hover effect */
 .btn-light:hover {
-border: 1px solid var(--secondary-color);
+    opacity: 0.8;
 }
 
 /* Text Colors */
