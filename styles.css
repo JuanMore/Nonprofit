@@ -190,6 +190,7 @@ img {
 }
 
 .col-card-subtitle {
+    line-height: 1.2;
     font-size: 16px;
     transform: translateY(-50%);
 
