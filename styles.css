@@ -216,7 +216,11 @@ img {
     display: inline-block;
     margin-top: 20px;
     border-radius: 23px;
+}
 
+.main-statements .btn-secondary:hover {
+    color: var(--light-color);
+    background-color: var(--secondary-color);
 }
 
 .statements img {
