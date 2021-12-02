@@ -62,14 +62,14 @@
     height: 100%;
 }
 
-/* .grid-4 {
+.grid-4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     align-items: center;
     align-self: center;
     height: 100%;
-} */
+}
 
 .bg-color {
     background-color: var(--primary-color);
