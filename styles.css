@@ -179,7 +179,7 @@ img {
 
 .col-cards img {
     width: 80%;
-    transform: translateY(-50%);
+    transform: translateY(-40%);
     margin: 0;
 }
 
@@ -190,8 +190,8 @@ img {
 }
 
 .col-card-subtitle {
-    font-size: 14px;
-    transform: translateY(-200%);
+    font-size: 20px;
+    transform: translateY(-50%);
 
 }
 
@@ -202,7 +202,8 @@ img {
 }
 
 .mission-statement {
-    height: 500px;
+    height: 600px;
+    max-height: 600px;
 }
 
 .main-statements {
