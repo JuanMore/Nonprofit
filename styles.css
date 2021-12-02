@@ -307,7 +307,7 @@ img {
         grid-template-rows: 1fr;
     }
     .main-statements .container .grid-3 {
-        grid-template-columns: 2fr;
+        grid-template-columns: 1fr;
     }
 
     .container .grid-4 {
