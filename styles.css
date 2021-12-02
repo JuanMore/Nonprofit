@@ -159,6 +159,7 @@ img {
 
 /* Mission */
 .mission {
+    margin-top: 30px;
     height: 600px;
     width: 100%;
     background-color: #f6fcfc;
