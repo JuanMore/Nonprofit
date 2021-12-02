@@ -44,7 +44,8 @@ img {
 
 .navbar {
     display: flex;
-    position:inherit;
+    position:fixed;
+    top: 0;
     justify-content: space-between;
     align-items: center;
     background-color: var(--primary-color);
