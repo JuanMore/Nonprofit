@@ -383,6 +383,9 @@ img {
         grid-template-rows: 1fr;
         overflow-y: hidden;
     }
+    .main-statements .container .grid-3 {
+        grid-template-columns: 1fr;
+    }
 }
 /* Mobile menu */
 @media screen and (max-width: 700px) {
