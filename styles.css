@@ -545,7 +545,7 @@ a {
     }
 
     .main-showcase p {
-        padding: 20px;
+        padding-bottom: 20px;
         margin-top: -1rem;
         margin-bottom: 10px;
     }
