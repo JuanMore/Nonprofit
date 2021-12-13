@@ -409,9 +409,7 @@ a {
 
     .main-text,
     .mission {
-        text-align: center;
-        justify-content: center;
-        /* margin-top: 75px; */
+        text-align: left;
     }
 
     .showcase-form {
