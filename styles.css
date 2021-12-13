@@ -345,7 +345,6 @@ a {
     }
 
     .small-cards {
-        padding: 20px 50px;
         gap: 20px;
     }
 
@@ -478,6 +477,10 @@ a {
         display: inline-block ;
     }
 
+    .small-cards .card {
+        padding: 0;
+    }
+
     .small-cards {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -585,7 +588,6 @@ a {
 
     .small-cards {
         grid-template-columns: 1fr;
-        padding: 0 10px;
     }
 
     img {
