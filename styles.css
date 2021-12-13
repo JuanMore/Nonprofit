@@ -569,9 +569,13 @@ a {
         margin-top: -100px;
     }
 
+    .carb btn {
+        padding: 0;
+    }
+
     .card {
         margin-top: 20px;
-        padding: 50px 20px;
+        padding: 10px 20px;
     }
 
     .mission .btn {
