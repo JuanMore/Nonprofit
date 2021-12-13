@@ -348,6 +348,10 @@ a {
         gap: 20px;
     }
 
+    .small-cards .card{
+        padding: 0;
+    }
+
     .footer h1 {
         font-size: 1.5rem;
     }
