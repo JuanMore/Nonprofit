@@ -2,7 +2,8 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    overflow: auto; /* remove padding  above navbar */
+    overflow: auto;
+    /* remove padding  above navbar */
     padding: 0 40px;
     overflow: hidden;
 }
@@ -16,21 +17,22 @@
     width: 350px;
     height: 450px;
     color: #333;
+    border-radius: 5px;
     background-color: #fff;
 }
 
 .col-cards {
-    margin-top: 50px;
     width: 225px;
-    height: 300px;
+    height: 250px;
     background: linear-gradient(#f3fbfc, #e6f9fb);
 }
 
- /* Layout */
+/* Layout */
 .grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1.5rem; /* space in between */
+    gap: 1.5rem;
+    /* space in between */
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -39,7 +41,8 @@
 .grid-1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem; /* space in between */
+    gap: 1.5rem;
+    /* space in between */
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -48,7 +51,8 @@
 .grid-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem; /* space in between */
+    gap: 2rem;
+    /* space in between */
     align-items: center;
     align-self: center;
     height: 100%;
@@ -57,7 +61,7 @@
 .grid-3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 5px;
     align-items: center;
     align-self: center;
     height: 100%;
@@ -66,9 +70,10 @@
 .grid-4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
     align-items: center;
     align-self: center;
+    gap: 20px;
+    height: 400px;
 }
 
 .bg-color {
@@ -84,13 +89,32 @@
 }
 
 .bg-hero {
-    background: url('/assets/imgs/crisscross.jpeg') no-repeat center center / cover;
+    background: url('/assets/imgs/crisscross.jpg') no-repeat center center / cover;
 }
 
 .bg-hero-2 {
-    background: url('/assets/imgs/mission-1-lg.jpeg') no-repeat center center / cover;
+    background: url('/assets/imgs/mission-1-lg.jpg') no-repeat center center / cover;
 
 }
+
+/* Show classes */
+.show-mobile {
+    display: none;
+}
+
+@media(max-width: 978px) {
+    .show-mobile {
+        display: block;
+    }
+
+    .hide {
+        display: none;
+    }
+    
+}
+
+
+/* End Show */
 
 /* Button Styles */
 .btn {
@@ -115,12 +139,12 @@
     background-color: #fff;
     color: steelblue;
     padding: 12px;
-    border: 1px solid var(--secondary-color);
+    border: none;
 }
 
 /* Hover effect */
 .btn-light:hover {
-border: 1px solid var(--secondary-color);
+    border: 1px solid var(--secondary-color);
 }
 
 /* Text Colors */
@@ -129,7 +153,7 @@ border: 1px solid var(--secondary-color);
 }
 
 .text-secondary {
-    color:#95a3b1
+    color: #95a3b1
 }
 
 .text-dark {
@@ -137,7 +161,7 @@ border: 1px solid var(--secondary-color);
 }
 
 .btn-secondary:hover {
-   background-color: rgba(0, 0, 0, 0.9);
+    border: 1px solid var(--secondary-color);
 }
 
 /* Text Sizes */
@@ -179,15 +203,19 @@ border: 1px solid var(--secondary-color);
 .my-1 {
     margin: 1rem 0;
 }
+
 .my-2 {
     margin: 1.5rem 0;
 }
+
 .my-3 {
     margin: 2rem 0;
 }
+
 .my-4 {
     margin: 3rem 0;
 }
+
 .my-5 {
     margin: 4rem 0;
 }
@@ -195,17 +223,25 @@ border: 1px solid var(--secondary-color);
 .m-1 {
     margin: 1rem;
 }
+
 .m-2 {
     margin: 1.5rem;
 }
+
 .m-3 {
     margin: 2rem;
 }
+
 .m-4 {
     margin: 3rem;
 }
+
 .m-5 {
     margin: 4rem;
+}
+
+.mb-1 {
+    margin-bottom: .5rem;
 }
 
 .mt-200 {
@@ -220,15 +256,19 @@ border: 1px solid var(--secondary-color);
 .py-1 {
     padding: 1rem 0;
 }
+
 .py-2 {
     padding: 1.5rem 0;
 }
+
 .py-3 {
     padding: 2rem 0;
 }
+
 .py-4 {
     padding: 3rem 0;
 }
+
 .py-5 {
     padding: 4rem 0;
 }
@@ -236,15 +276,19 @@ border: 1px solid var(--secondary-color);
 .p-1 {
     padding: 1rem;
 }
+
 .p-2 {
     padding: 1.5rem;
 }
+
 .p-3 {
     padding: 2rem;
 }
+
 .p-4 {
     padding: 3rem;
 }
+
 .p-5 {
     padding: 4rem;
 }
@@ -266,6 +310,7 @@ pt-1 {
         transform: translateX(0);
     }
 }
+
 @keyframes slideFromRight {
     0% {
         transform: translateX(100%);
@@ -275,6 +320,7 @@ pt-1 {
         transform: translateX(0);
     }
 }
+
 @keyframes slideFromTop {
     0% {
         transform: translateY(-100%);
@@ -284,7 +330,8 @@ pt-1 {
         transform: translateX(0);
     }
 }
-@keyframes slideFromBottom{
+
+@keyframes slideFromBottom {
     0% {
         transform: translateY(100%);
     }
