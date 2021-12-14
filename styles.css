@@ -530,7 +530,7 @@ a {
     .main-showcase .grid-1 {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        overflow-y: hidden;
+        /* overflow-y: hidden; */
     }
 }
 
