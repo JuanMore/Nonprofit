@@ -352,6 +352,11 @@ a {
         padding: 0;
     }
 
+    .main-statements .container .grid-3 {
+        padding: 0 40px;
+        /* grid-template-columns: repeat(2, 1fr); */
+    }
+
     .footer h1 {
         font-size: 1.5rem;
     }
