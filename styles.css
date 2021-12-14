@@ -436,6 +436,10 @@ a {
         height: 100%;
     }
 
+    .small-cards {
+        padding: 20px 50px;
+    }
+
     #volunteer-form btn {
         width: 100%;
     }
@@ -482,7 +486,7 @@ a {
     }
 
     .small-cards .card {
-        padding: 20px 50px;
+        padding: 0;
     }
 
     .small-cards {
