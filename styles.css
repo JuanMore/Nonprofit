@@ -507,7 +507,7 @@ a {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .grid-3 {
+    .main-statements .container .grid-3 {
         display: flex;
         flex-direction: column;
     }
