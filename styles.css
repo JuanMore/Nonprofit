@@ -521,6 +521,10 @@ a {
         display: flex;
         flex-direction: column;
     }
+
+    .main-text {
+        height: 100%;
+    }
 }
 
 @media(max-width: 928px) {
