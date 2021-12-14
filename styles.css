@@ -119,6 +119,7 @@ img {
 }
 
 .main-text {
+    height: 80%;
     animation: slideFromLeft 1s ease-in;
 }
 
