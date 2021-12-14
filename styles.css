@@ -352,9 +352,18 @@ a {
         padding: 0;
     }
 
+    .blog-card {
+        width: 450px;
+        height: 500px;
+    }
+
     .main-statements .container .grid-3 {
         padding: 0 40px;
-        /* grid-template-columns: repeat(2, 1fr); */
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main-statements .container {
+        padding: 0;
     }
 
     .footer h1 {
@@ -496,6 +505,11 @@ a {
 
     .small-cards {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-3 {
+        display: flex;
+        flex-direction: column;
     }
 }
 
