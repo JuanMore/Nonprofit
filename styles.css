@@ -414,7 +414,6 @@ a {
     .mission,
     .showcase-form {
         height: 100%;
-        overflow-x: hidden;
     }
 
     .main-showcase p {
