@@ -359,7 +359,7 @@ a {
     }
 
     .main-statements .container .grid-3 {
-        padding: 0 40px;
+        padding: 10px 20px 0px 10px;
         grid-template-columns: repeat(2, 1fr);
     }
 
