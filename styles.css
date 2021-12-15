@@ -480,6 +480,10 @@ a {
         width: 100%;
     }
 
+    .xl {
+        font-size: 3rem;
+    }
+
     .footer h1,
     p {
         margin: auto;
