@@ -68,6 +68,11 @@ img {
     padding: 0 1rem;
 }
 
+.nav-list-right li:first-child a {
+    display: flex;
+    align-items: center;
+}
+
 .navbar a {
     display: block;
     font-size: 18px;
