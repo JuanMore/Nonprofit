@@ -648,6 +648,10 @@ a {
         width: 100%;
     }
 
+    .navbar .btn.btn-primary {
+        margin-top: 5px;
+    }
+
     .footer .social a i {
         margin: 0 10px;
         padding: 0 10px 5px 0;
