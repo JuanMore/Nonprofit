@@ -91,6 +91,11 @@ img {
     padding: 1.2rem 1rem;
 }
 
+.navbar .btn.btn-primary:hover {
+    background-color: #f6fcfc;
+    color: #333;
+}
+
 .navbar a:hover {
     color: var(--secondary-color);
 }
