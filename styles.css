@@ -92,7 +92,8 @@ img {
 }
 
 .navbar .btn.btn-primary:hover {
-     color: #f6fcfc;
+     background-color: #f6fcfc;
+     color: #333;
 }
 
 .navbar a:hover {
