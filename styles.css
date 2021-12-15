@@ -80,8 +80,9 @@ img {
     font-size: 18px;
     font-weight: lighter;
     color: #fff;
+    width: 30%;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 1rem .5rem;
     text-decoration: none;
 }
 
