@@ -86,6 +86,7 @@ img {
 }
 
 .navbar .btn.btn-primary {
+    font-weight: 500;
     width: 100%;
     padding: 1.2rem 1rem;
 }
