@@ -405,6 +405,10 @@ a {
         margin-top: 25px;
     }
 
+    .navbar .btn.btn-primary {
+        margin-top: 1rem;
+    }
+
     .mission .container .col-cards img {
         margin-top: 50px;
         width: 100px
@@ -646,10 +650,6 @@ a {
     img {
         height: 100%;
         width: 100%;
-    }
-
-    .navbar .btn.btn-primary {
-        margin-top: 1rem;
     }
 
     .footer .social a i {
