@@ -80,13 +80,12 @@ img {
     font-size: 18px;
     font-weight: lighter;
     color: #fff;
-    width: 30%;
     text-align: center;
     padding: 2rem 1rem;
     text-decoration: none;
 }
 
-.navbar .btn .btn-primary {
+.navbar .btn.btn-primary {
     width: 100%;
     padding: 1.2rem 1rem;
 }
