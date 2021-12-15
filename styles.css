@@ -61,6 +61,7 @@ img {
 
 .navbar ul {
     display: flex;
+    align-items: center;
     color: #fff;
 }
 
