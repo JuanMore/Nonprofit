@@ -256,6 +256,10 @@
     margin-top: 10px;
 }
 
+.mt-2 {
+    margin-top: 20px;
+}
+
 /* Padding */
 .py-1 {
     padding: 1rem 0;
