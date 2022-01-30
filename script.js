@@ -8,6 +8,6 @@ function toggleNav(){
 }
 
 const footerYear = new Date().getFullYear()
-footerCopyright.innerText += `<p class="text-primary">Copyright &copy; ${footerYear} | Website Design by <a
+footerCopyright.innerHTML += `<p class="text-primary">Copyright &copy; ${footerYear} | Website Design by <a
 href="https://www.juanmoreno.dev/">Juan Moreno</a></p>`
 
