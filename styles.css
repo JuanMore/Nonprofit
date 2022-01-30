@@ -529,13 +529,6 @@ a {
         margin-left: 2rem;
     }
 
-    #copyright .hide {
-        display: none;
-    }
-
-    #copyrightMobile {
-        display: block;
-    }
 }
 
 @media(max-width: 700px){
