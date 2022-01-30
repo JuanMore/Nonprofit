@@ -54,7 +54,7 @@ img {
 
 .navbar-brand {
     display: flex;
-    font-size: 26px;
+    font-size: 3.2rem;
     font-weight: 600;
     color: #fff;
     padding: 1.5rem 2rem;
@@ -85,6 +85,7 @@ img {
     text-decoration: none;
 }
 
+
 .navbar .btn.btn-primary {
     font-weight: 500;
     width: 100%;
@@ -96,7 +97,7 @@ img {
      color: #333;
 }
 
-.navbar a:hover {
+.navbar .nav-link:hover {
     color: var(--secondary-color);
 }
 
