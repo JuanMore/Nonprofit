@@ -315,6 +315,7 @@ img {
 
 .footer li,
 a {
+    margin-left: 10px;
     margin-bottom: 2px;
 }
 
