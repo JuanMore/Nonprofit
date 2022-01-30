@@ -333,8 +333,12 @@ a {
     margin-left: 80px;
 }
 
-#copyrightMobile {
+.hide {
     display: none;
+}
+
+.show {
+    display: block;
 }
 
 
@@ -532,13 +536,15 @@ a {
 }
 
 @media(max-width: 700px){
-    #copyright .hide {
+
+    .hide {
         display: none;
     }
 
-    #copyrightMobile .show{
+    .show {
         display: block;
     }
+    
 }
 
 @media(max-width: 978px) {
