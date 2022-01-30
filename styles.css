@@ -59,7 +59,7 @@ img {
 }
 
 .logo {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
@@ -100,7 +100,7 @@ img {
      color: #333;
 }
 
-.navbar .nav-link:hover {
+.navbar .nav-link a:hover {
     color: var(--secondary-color);
 }
 
