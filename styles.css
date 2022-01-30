@@ -536,7 +536,7 @@ a {
         display: none;
     }
 
-    #copyrightMobile {
+    #copyrightMobile .show{
         display: block;
     }
 }
