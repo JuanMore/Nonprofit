@@ -529,7 +529,7 @@ a {
         display: none;
     }
 
-    #copyright .show {
+    #copyrightMobile .show {
         display: block;
     }
 }
