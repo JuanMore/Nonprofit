@@ -533,7 +533,7 @@ a {
         display: none;
     }
 
-    #copyrightMobile .show {
+    #copyrightMobile {
         display: block;
     }
 }
