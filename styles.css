@@ -309,6 +309,10 @@ img {
 
 }
 
+footer ul {
+    margin-left: 5rem;
+}
+
 .footer .social a {
     margin: 0 1.5rem;
 }
@@ -515,6 +519,18 @@ a {
 
     .footer .social a {
         margin: 5px;
+    }
+
+    footer ul {
+        margin-left: 2rem;
+    }
+
+    #copyright .hide {
+        display: none;
+    }
+
+    #copyright .show {
+        display: block;
     }
 }
 
