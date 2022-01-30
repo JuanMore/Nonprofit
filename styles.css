@@ -78,7 +78,7 @@ img {
     align-items: center;
 }
 
-.navbar a {
+.navbar .nav-link {
     display: block;
     font-size: 18px;
     font-weight: lighter;
