@@ -525,11 +525,11 @@ a {
         margin-left: 2rem;
     }
 
-    #copyright #hide {
+    #copyright .hide {
         display: none;
     }
 
-    #copyright #show {
+    #copyright .show {
         display: block;
     }
 }
