@@ -9,7 +9,7 @@ function toggleNav(){
 
 // define a function to close menu on outside window click
 document.onclick = function(e){
-    if(e.target.id !== menuBtn){
+    if(e.target !== menuBtn){
         menu.classList.remove('show')
     }
 }
