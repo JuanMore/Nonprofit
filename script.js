@@ -10,7 +10,7 @@ function toggleNav(){
 // define a function to close menu on outside window click
 window.addEventListener('click', function(e) {
     if(e.target != menu && e.target.parentNode != menu){
-        menu.classList.toggle('show')
+        menu.classList.toggle('hide')
     }
 })
 
