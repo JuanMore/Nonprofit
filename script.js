@@ -4,15 +4,11 @@ const menu = document.querySelector('.nav-list');
 const footerCopyright = document.getElementById('copyright')
 
 // define a function to close menu on outside window click
-function closeMobileNav() {
-    if(menu.style.display === 'block'){
+window.addEventListener('mouseup', function(e) {
+    if(e.target != menu && e.target.parentNode != menu){
         menu.style.display = 'none'
-    } else {
-        menu.classList.toggle('show')
     }
-}
-
-window.onclick = closeMobileNav
+})
 
 function toggleNav(){
     menu.classList.toggle('show')
