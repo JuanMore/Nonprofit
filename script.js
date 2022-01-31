@@ -8,11 +8,23 @@ function toggleNav(){
 }
 
 // define a function to close menu on outside window click
-window.addEventListener('mouseup', function(e) {
-    if(e.target != menu){
-            menu.style.display = 'none' 
-    }
-})
+document.addEventListener( 'click', function( evt ) {
+    var openedMenu = openedMenu = document.querySelector( '.toggled .menu-toggle' ),
+        targetElement = evt.target;  // clicked element
+
+    do {
+        if ( targetElement == openedMenu ) {
+            // This is a click inside. Do nothing, just return.
+            return;
+        }
+
+        // Go up the DOM
+        targetElement = targetElement.parentNode;
+    } while ( targetElement );
+
+    // This is a click outside.
+    openedMenu.click();
+} );
 
 
 
