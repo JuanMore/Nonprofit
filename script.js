@@ -8,9 +8,9 @@ function toggleNav(){
 }
 
 // define a function to close menu on outside window click
-document.addEventListener( 'click', function( evt ) {
-    var openedMenu = openedMenu = document.querySelector( '.toggled .menu-toggle' ),
-        targetElement = evt.target;  // clicked element
+document.addEventListener( 'click', function( e ) {
+    var openedMenu = openedMenu = document.querySelector('.nav-toggle'),
+        targetElement = e.target;  // clicked element
 
     do {
         if ( targetElement == openedMenu ) {
