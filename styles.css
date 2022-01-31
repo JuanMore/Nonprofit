@@ -531,7 +531,7 @@ a {
     }
 
     footer ul {
-        margin-left: 2rem;
+        margin-left: 1.5rem;
     }
 
 
@@ -688,5 +688,9 @@ a {
     .footer .social a i {
         margin: 0 10px;
         padding: 0 10px 5px 0;
+    }
+
+    footer ul {
+        margin-left: .5rem;
     }
 }
