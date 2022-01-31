@@ -5,7 +5,7 @@ const footerCopyright = document.getElementById('copyright')
 
 function toggleNav(e){
     menu.classList.toggle('show')
-    if(e.target !== menuBtn){
+    if(e.target !== menuBtn && e.target !== menu){
         console.log('click 1')
         menu.classList.remove('show')
     }
