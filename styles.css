@@ -341,6 +341,10 @@ a {
     display: block;
 }
 
+.hide { 
+    display: none;
+}
+
 
 /* Media Queries */
 @media(max-width: 1200px){
