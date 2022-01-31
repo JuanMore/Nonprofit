@@ -12,6 +12,10 @@ window.addEventListener('click', function(e) {
     if(e.target != menu && e.target.parentNode != menu){
         if(menu.classList.contains('show')){
             menu.style.display = 'none'
+        } else 
+        {
+            menu.style.display = 'block'
+
         }
     }
 })
