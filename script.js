@@ -4,24 +4,9 @@ const menu = document.querySelector('.nav-list');
 const footerCopyright = document.getElementById('copyright')
 
 function toggleNav(e){
-    if(e.target == menuBtn){
         menu.classList.toggle('show')
-    }
-    else if (e.target !== menuBtn && e.target !== menu){
-        menu.classList.remove('show')
-        console.log('click 1')
-
-    }
 }
 
-// define a function to close menu on outside window click
-// document.onclick = function(e){
-//     console.log('click 1')
-//     if(e.target !== menuBtn){
-//         console.log('click 2')
-//         menu.classList.remove('show')
-//     }
-// }
 
 
 
