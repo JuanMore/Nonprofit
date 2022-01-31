@@ -8,7 +8,7 @@ function toggleNav(){
 }
 
 // define a function to close menu on outside window click
-window.addEventListener('onclick', function(e) {
+window.addEventListener('click', function(e) {
     if(e.target != menu && e.target.parentNode != menu){
         menu.style.display = 'none'
     }
