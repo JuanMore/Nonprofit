@@ -7,7 +7,7 @@ function toggleNav(e){
     if(e.target == menuBtn){
         menu.classList.toggle('show')
     }
-    else (e.target !== menuBtn && e.target !== menu){
+    else if (e.target !== menuBtn && e.target !== menu){
         menu.classList.remove('show')
         console.log('click 1')
 
