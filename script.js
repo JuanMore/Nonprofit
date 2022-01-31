@@ -8,11 +8,11 @@ function toggleNav(){
 }
 
 // define a function to close menu on outside window click
-document.addEventListener( 'click', function( e ) {
-    targetElement = e.target;  // clicked element
+window.addEventListener( 'click', function( e ) {
+   const targetElement = e.target;  // clicked element
 
     do {
-        if ( targetElement == menu ) {
+        if ( targetElement === menu ) {
             // This is a click inside. Do nothing, just return.
             return;
         }
