@@ -4,8 +4,10 @@ const menu = document.querySelector('.nav-list');
 const footerCopyright = document.getElementById('copyright')
 
 function toggleNav(e){
-    menu.classList.toggle('show')
-    if(e.target !== menuBtn && e.target !== menu){
+    if(e.target == menuBtn){
+        menu.classList.toggle('show')
+    }
+    else (e.target !== menuBtn && e.target !== menu){
         menu.classList.remove('show')
         console.log('click 1')
 
