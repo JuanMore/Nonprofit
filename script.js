@@ -3,10 +3,6 @@ const menuBtn = document.querySelector('.nav-toggle').addEventListener('click', 
 const menu = document.querySelector('.nav-list');
 const footerCopyright = document.getElementById('copyright')
 
-function toggleNav(){
-    menu.classList.toggle('show')
-}
-
 // define a function to close menu on outside window click
 function closeMobileNav() {
     if(menu.style.display === 'block'){
@@ -17,6 +13,10 @@ function closeMobileNav() {
 }
 
 window.onclick = closeMobileNav
+
+function toggleNav(){
+    menu.classList.toggle('show')
+}
 
 
 
