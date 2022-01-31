@@ -3,16 +3,22 @@ const menuBtn = document.querySelector('.nav-toggle').addEventListener('click', 
 const menu = document.querySelector('.nav-list');
 const footerCopyright = document.getElementById('copyright')
 
-function toggleNav(){
+function toggleNav(e){
     menu.classList.toggle('show')
-}
-
-// define a function to close menu on outside window click
-document.onclick = function(e){
     if(e.target !== menuBtn){
+        console.log('click 1')
         menu.classList.remove('show')
     }
 }
+
+// define a function to close menu on outside window click
+// document.onclick = function(e){
+//     console.log('click 1')
+//     if(e.target !== menuBtn){
+//         console.log('click 2')
+//         menu.classList.remove('show')
+//     }
+// }
 
 
 
