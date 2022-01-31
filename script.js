@@ -14,9 +14,9 @@ function closeMobileNav() {
 
 window.onclick = closeMobileNav
 
-// function toggleNav(){
-//     menu.classList.toggle('show')
-// }
+function toggleNav(){
+    menu.classList.toggle('show')
+}
 
 
 
