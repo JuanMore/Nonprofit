@@ -8,15 +8,15 @@ function closeMobileNav() {
     if(menu.style.display === 'block'){
         menu.style.display = 'none'
     } else {
-        menu.style.display = 'block'
+        menu.classList.toggle('show')
     }
 }
 
 window.onclick = closeMobileNav
 
-function toggleNav(){
-    menu.classList.toggle('show')
-}
+// function toggleNav(){
+//     menu.classList.toggle('show')
+// }
 
 
 
