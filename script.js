@@ -9,11 +9,10 @@ function toggleNav(){
 
 // define a function to close menu on outside window click
 document.addEventListener( 'click', function( e ) {
-    var openedMenu = openedMenu = document.querySelector('.nav-toggle'),
-        targetElement = e.target;  // clicked element
+    targetElement = e.target;  // clicked element
 
     do {
-        if ( targetElement == openedMenu ) {
+        if ( targetElement == menu ) {
             // This is a click inside. Do nothing, just return.
             return;
         }
@@ -23,7 +22,7 @@ document.addEventListener( 'click', function( e ) {
     } while ( targetElement );
 
     // This is a click outside.
-    openedMenu.click();
+    menu.click();
 } );
 
 
