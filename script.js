@@ -23,7 +23,6 @@ function toggleNav(e){
 
 
 
-
 // set year to copyright element
 const footerYear = new Date().getFullYear()
 footerCopyright.innerHTML += `<p class="text-primary">Copyright &copy; ${footerYear} | Website Design by <a
