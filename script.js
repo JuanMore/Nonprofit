@@ -6,7 +6,7 @@ const footerCopyright = document.getElementById('copyright')
 // define a function to close menu on outside window click
 window.addEventListener('click', function(e) {
     if(e.target != menu && e.target.parentNode != menu){
-        menu.style.display = 'none'
+        menu.classList.toggle('show')
     }
 })
 
